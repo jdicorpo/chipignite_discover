@@ -3,7 +3,7 @@
 This FPGA experimentation and development board was developped for [efabless chipignite](https://efabless.com/chipignite) workshops and labs to serve as an easy to use experimentation board and stepping stone towards ASIC digital design, allowing for simple migration of design to [Tiny Tapeout](https://tinytapeout.com) projects.
 
  
-![ChipIgnite Explain PCB](docs/ChipigniteExplain.png)
+![ChipIgnite Explain PCB](docs/ChipigniteExplain-top.png)
 
 It is released as [open hardware](LICENSE), and all the design files are included here, as a[kicad](https://www.kicad.org/) project.
 
