@@ -1,6 +1,6 @@
-# ChipIgnite educational FPGA dev board
+# Educational FPGA dev board
 
-This FPGA experimentation and development board was developped for [efabless chipignite](https://efabless.com/chipignite) workshops and labs to serve as an easy to use experimentation board and stepping stone towards ASIC digital design, allowing for simple migration of design to [Tiny Tapeout](https://tinytapeout.com) projects.
+This FPGA experimentation and development board was developped for [Efabless chipIgnite](https://efabless.com/chipignite) workshops and labs to serve as an easy to use experimentation board and stepping stone towards ASIC digital design, allowing for simple migration of design to [Tiny Tapeout](https://tinytapeout.com) projects.
 
  
 ![ChipIgnite Explain PCB](docs/ChipigniteExplain-top.png)
