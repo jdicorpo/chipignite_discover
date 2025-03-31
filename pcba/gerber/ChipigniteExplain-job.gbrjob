@@ -3,9 +3,9 @@
     "GenerationSoftware": {
       "Vendor": "KiCad",
       "Application": "Pcbnew",
-      "Version": "8.0.8-8.0.8-0~ubuntu24.04.1"
+      "Version": "8.0.2"
     },
-    "CreationDate": "2025-02-21T17:42:53-05:00"
+    "CreationDate": "2025-03-31T12:16:52-07:00"
   },
   "GeneralSpecs": {
     "ProjectId": {
@@ -63,8 +63,13 @@
       "FilePolarity": "Positive"
     },
     {
-      "Path": "ChipigniteExplain-B_Paste.gbr",
-      "FileFunction": "SolderPaste,Bot",
+      "Path": "ChipigniteExplain-F_Adhesive.gbr",
+      "FileFunction": "Glue,Top",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "ChipigniteExplain-B_Adhesive.gbr",
+      "FileFunction": "Glue,Bot",
       "FilePolarity": "Positive"
     },
     {
@@ -73,8 +78,8 @@
       "FilePolarity": "Positive"
     },
     {
-      "Path": "ChipigniteExplain-B_Silkscreen.gbr",
-      "FileFunction": "Legend,Bot",
+      "Path": "ChipigniteExplain-B_Paste.gbr",
+      "FileFunction": "SolderPaste,Bot",
       "FilePolarity": "Positive"
     },
     {
@@ -83,9 +88,9 @@
       "FilePolarity": "Positive"
     },
     {
-      "Path": "ChipigniteExplain-B_Mask.gbr",
-      "FileFunction": "SolderMask,Bot",
-      "FilePolarity": "Negative"
+      "Path": "ChipigniteExplain-B_Silkscreen.gbr",
+      "FileFunction": "Legend,Bot",
+      "FilePolarity": "Positive"
     },
     {
       "Path": "ChipigniteExplain-F_Mask.gbr",
@@ -93,7 +98,27 @@
       "FilePolarity": "Negative"
     },
     {
+      "Path": "ChipigniteExplain-B_Mask.gbr",
+      "FileFunction": "SolderMask,Bot",
+      "FilePolarity": "Negative"
+    },
+    {
+      "Path": "ChipigniteExplain-User_Drawings.gbr",
+      "FileFunction": "Other,User",
+      "FilePolarity": "Positive"
+    },
+    {
       "Path": "ChipigniteExplain-User_Comments.gbr",
+      "FileFunction": "Other,User",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "ChipigniteExplain-User_Eco1.gbr",
+      "FileFunction": "Other,User",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "ChipigniteExplain-User_Eco2.gbr",
       "FileFunction": "Other,User",
       "FilePolarity": "Positive"
     },
@@ -103,13 +128,13 @@
       "FilePolarity": "Positive"
     },
     {
-      "Path": "ChipigniteExplain-B_Fab.gbr",
-      "FileFunction": "AssemblyDrawing,Bot",
+      "Path": "ChipigniteExplain-F_Fab.gbr",
+      "FileFunction": "AssemblyDrawing,Top",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "ChipigniteExplain-F_Fab.gbr",
-      "FileFunction": "AssemblyDrawing,Top",
+      "Path": "ChipigniteExplain-B_Fab.gbr",
+      "FileFunction": "AssemblyDrawing,Bot",
       "FilePolarity": "Positive"
     }
   ],

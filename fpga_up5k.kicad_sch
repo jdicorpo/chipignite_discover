@@ -4973,7 +4973,7 @@
 	)
 	(wire
 		(pts
-			(xy 246.38 144.78) (xy 246.38 147.32)
+			(xy 246.38 144.78) (xy 246.38 151.13)
 		)
 		(stroke
 			(width 0)
@@ -5283,6 +5283,16 @@
 	)
 	(wire
 		(pts
+			(xy 254 118.11) (xy 254 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2c18022a-75d3-4be8-bc9b-255fdec99ed6")
+	)
+	(wire
+		(pts
 			(xy 128.27 151.13) (xy 128.27 153.67)
 		)
 		(stroke
@@ -5380,6 +5390,16 @@
 			(type default)
 		)
 		(uuid "38ce6884-aa2a-44a9-b1a6-966b79edc0d3")
+	)
+	(wire
+		(pts
+			(xy 246.38 151.13) (xy 237.49 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3ce573d8-51c4-4b1a-90fc-be2eceda2919")
 	)
 	(wire
 		(pts
@@ -5683,6 +5703,16 @@
 	)
 	(wire
 		(pts
+			(xy 237.49 151.13) (xy 237.49 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "60b5a0ec-2354-41a9-aa15-61f662cbb405")
+	)
+	(wire
+		(pts
 			(xy 71.12 170.18) (xy 71.12 172.72)
 		)
 		(stroke
@@ -5940,6 +5970,16 @@
 			(type default)
 		)
 		(uuid "7ce712bb-7d28-4d9b-9902-2126c471a7a1")
+	)
+	(wire
+		(pts
+			(xy 246.38 118.11) (xy 246.38 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8257f6f6-6baf-465f-be3a-47adb742ee76")
 	)
 	(wire
 		(pts
@@ -6290,16 +6330,6 @@
 			(type default)
 		)
 		(uuid "a918b5b9-7386-40f7-9774-9a4036b80d23")
-	)
-	(wire
-		(pts
-			(xy 246.38 121.92) (xy 246.38 123.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ab05cea9-6d65-4d6a-afef-347d05d6ffe6")
 	)
 	(wire
 		(pts
@@ -6841,6 +6871,16 @@
 		)
 		(uuid "f7c97ed0-813a-40d0-9774-c0d7b652ec31")
 	)
+	(wire
+		(pts
+			(xy 246.38 118.11) (xy 254 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f9605372-5cbc-406f-8b3e-0169c8c68543")
+	)
 	(bus
 		(pts
 			(xy 170.18 60.96) (xy 170.18 66.04)
@@ -6988,6 +7028,7 @@
 	)
 	(label "PMOD1[1..8]"
 		(at 50.8 31.75 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6998,6 +7039,7 @@
 	)
 	(label "CTLIO7"
 		(at 30.48 68.58 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7008,6 +7050,7 @@
 	)
 	(label "CTLIO6"
 		(at 30.48 66.04 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7018,6 +7061,7 @@
 	)
 	(label "PMOD15"
 		(at 172.72 55.88 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7028,6 +7072,7 @@
 	)
 	(label "PMOD28"
 		(at 172.72 63.5 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7038,6 +7083,7 @@
 	)
 	(label "USR_SW1"
 		(at 269.24 92.71 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7048,6 +7094,7 @@
 	)
 	(label "PMOD27"
 		(at 100.33 60.96 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7058,6 +7105,7 @@
 	)
 	(label "CTLIO4"
 		(at 30.48 58.42 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7068,6 +7116,7 @@
 	)
 	(label "PMOD18"
 		(at 30.48 83.82 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7078,6 +7127,7 @@
 	)
 	(label "RGB_B"
 		(at 36.83 91.44 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7089,6 +7139,7 @@
 	)
 	(label "RGB_R"
 		(at 36.83 93.98 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7100,6 +7151,7 @@
 	)
 	(label "USR_SW2"
 		(at 269.24 134.62 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7110,6 +7162,7 @@
 	)
 	(label "CDONE"
 		(at 143.51 53.34 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7120,6 +7173,7 @@
 	)
 	(label "PMOD22"
 		(at 100.33 68.58 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7130,6 +7184,7 @@
 	)
 	(label "USR_SW2"
 		(at 83.82 71.12 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7140,6 +7195,7 @@
 	)
 	(label "CTLIO2"
 		(at 30.48 53.34 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7150,6 +7206,7 @@
 	)
 	(label "PMOD16"
 		(at 172.72 60.96 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7160,6 +7217,7 @@
 	)
 	(label "RGB_G"
 		(at 36.83 88.9 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7171,6 +7229,7 @@
 	)
 	(label "RGB_G"
 		(at 157.48 170.18 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7182,6 +7241,7 @@
 	)
 	(label "PMOD23"
 		(at 172.72 68.58 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7192,6 +7252,7 @@
 	)
 	(label "PMOD14"
 		(at 30.48 73.66 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7202,6 +7263,7 @@
 	)
 	(label "PMOD13"
 		(at 30.48 81.28 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7212,6 +7274,7 @@
 	)
 	(label "CTLIO1"
 		(at 30.48 55.88 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7222,6 +7285,7 @@
 	)
 	(label "CTLIO3"
 		(at 30.48 60.96 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7232,6 +7296,7 @@
 	)
 	(label "VCC_PLL"
 		(at 54.61 171.45 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7243,6 +7308,7 @@
 	)
 	(label "CTLIO8"
 		(at 30.48 71.12 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7253,6 +7319,7 @@
 	)
 	(label "VCC_PLL"
 		(at 172.72 82.55 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7264,6 +7331,7 @@
 	)
 	(label "VCC_PLL"
 		(at 138.43 93.98 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7275,6 +7343,7 @@
 	)
 	(label "FPGA_INT_CLK"
 		(at 30.48 76.2 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7285,6 +7354,7 @@
 	)
 	(label "CTLIO[1..8]"
 		(at 33.02 35.56 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7295,6 +7365,7 @@
 	)
 	(label "xclk"
 		(at 140.97 143.51 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7306,6 +7377,7 @@
 	)
 	(label "PMOD24"
 		(at 172.72 73.66 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7316,6 +7388,7 @@
 	)
 	(label "PMOD21"
 		(at 100.33 66.04 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7326,6 +7399,7 @@
 	)
 	(label "RGB_R"
 		(at 157.48 167.64 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7337,6 +7411,7 @@
 	)
 	(label "PMOD11"
 		(at 172.72 58.42 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7347,6 +7422,7 @@
 	)
 	(label "PMOD25"
 		(at 172.72 71.12 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7357,6 +7433,7 @@
 	)
 	(label "RGB_B"
 		(at 157.48 172.72 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7368,6 +7445,7 @@
 	)
 	(label "CTLIO5"
 		(at 30.48 63.5 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7378,6 +7456,7 @@
 	)
 	(label "PMOD2[1..8]"
 		(at 95.25 69.85 90)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7388,6 +7467,7 @@
 	)
 	(label "PMOD17"
 		(at 30.48 86.36 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7398,6 +7478,7 @@
 	)
 	(label "PMOD12"
 		(at 172.72 66.04 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7408,6 +7489,7 @@
 	)
 	(label "USR_SW1"
 		(at 83.82 76.2 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7418,6 +7500,7 @@
 	)
 	(label "PMOD26"
 		(at 100.33 63.5 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7428,6 +7511,7 @@
 	)
 	(label "PMOD2[1..8]"
 		(at 170.18 71.12 90)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7438,6 +7522,7 @@
 	)
 	(label "FPGA_INT_CLK"
 		(at 167.64 143.51 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7449,6 +7534,7 @@
 	(hierarchical_label "CTLIO[1..8]"
 		(shape bidirectional)
 		(at 33.02 35.56 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7460,6 +7546,7 @@
 	(hierarchical_label "PMOD2[1..8]"
 		(shape bidirectional)
 		(at 170.18 57.15 90)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7471,6 +7558,7 @@
 	(hierarchical_label "FPGA_SCK"
 		(shape input)
 		(at 76.2 91.44 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7482,6 +7570,7 @@
 	(hierarchical_label "UTX"
 		(shape output)
 		(at 105.41 83.82 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7493,6 +7582,7 @@
 	(hierarchical_label "CDONE"
 		(shape output)
 		(at 153.67 54.61 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7504,6 +7594,7 @@
 	(hierarchical_label "~{RESET}"
 		(shape output)
 		(at 262.89 53.34 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7515,6 +7606,7 @@
 	(hierarchical_label "URX"
 		(shape input)
 		(at 105.41 81.28 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7526,6 +7618,7 @@
 	(hierarchical_label "FPGA_MISO"
 		(shape output)
 		(at 97.79 86.36 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7537,6 +7630,7 @@
 	(hierarchical_label "FPGA_MOSI"
 		(shape input)
 		(at 97.79 88.9 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7548,6 +7642,7 @@
 	(hierarchical_label "CLK_FPGA"
 		(shape input)
 		(at 93.98 78.74 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7559,6 +7654,7 @@
 	(hierarchical_label "PMOD1[1..8]"
 		(shape bidirectional)
 		(at 33.02 31.75 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7570,6 +7666,7 @@
 	(hierarchical_label "~{RESET}"
 		(shape input)
 		(at 101.6 53.34 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7581,6 +7678,7 @@
 	(hierarchical_label "FPGA_SS"
 		(shape input)
 		(at 97.79 93.98 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7742,7 +7840,7 @@
 			(uuid "c02bf89a-d015-46ca-b294-b9b5904cf5ee")
 		)
 		(instances
-			(project "EfabExplain"
+			(project "ChipigniteExplain"
 				(path "/8232fe65-a587-4d29-b8c3-2d615f022bd8/da07f808-bd69-4cc5-b448-e52192b4258c"
 					(reference "C27")
 					(unit 1)
@@ -7808,7 +7906,7 @@
 			(uuid "997748d7-c27b-4695-8073-b0bbad1b7c78")
 		)
 		(instances
-			(project "EfabExplain"
+			(project "ChipigniteExplain"
 				(path "/8232fe65-a587-4d29-b8c3-2d615f022bd8/da07f808-bd69-4cc5-b448-e52192b4258c"
 					(reference "#PWR0116")
 					(unit 1)
@@ -7942,7 +8040,7 @@
 			(uuid "0901565e-7ff2-4044-887c-29b4ac70e738")
 		)
 		(instances
-			(project "EfabExplain"
+			(project "ChipigniteExplain"
 				(path "/8232fe65-a587-4d29-b8c3-2d615f022bd8/da07f808-bd69-4cc5-b448-e52192b4258c"
 					(reference "C26")
 					(unit 1)
@@ -8102,7 +8200,7 @@
 			(uuid "fbd70481-25b8-4253-af3f-f0ef72727c1d")
 		)
 		(instances
-			(project "EfabExplain"
+			(project "ChipigniteExplain"
 				(path "/8232fe65-a587-4d29-b8c3-2d615f022bd8/da07f808-bd69-4cc5-b448-e52192b4258c"
 					(reference "R28")
 					(unit 1)
@@ -8168,7 +8266,7 @@
 			(uuid "0bdcb448-5783-49b1-9b0b-b360db08280a")
 		)
 		(instances
-			(project "EfabExplain"
+			(project "ChipigniteExplain"
 				(path "/8232fe65-a587-4d29-b8c3-2d615f022bd8/da07f808-bd69-4cc5-b448-e52192b4258c"
 					(reference "#PWR0113")
 					(unit 1)
@@ -8313,7 +8411,7 @@
 			(uuid "e53c93be-509e-4df9-96d4-522727e8b9e2")
 		)
 		(instances
-			(project "EfabExplain"
+			(project "ChipigniteExplain"
 				(path "/8232fe65-a587-4d29-b8c3-2d615f022bd8/da07f808-bd69-4cc5-b448-e52192b4258c"
 					(reference "X1")
 					(unit 1)
@@ -8378,9 +8476,75 @@
 			(uuid "d9b954c3-e6fc-4816-b060-e9ecaab4fa0a")
 		)
 		(instances
-			(project "EfabExplain"
+			(project "ChipigniteExplain"
 				(path "/8232fe65-a587-4d29-b8c3-2d615f022bd8/da07f808-bd69-4cc5-b448-e52192b4258c"
 					(reference "#PWR092")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 237.49 148.59 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0e529b30-dc8a-4a05-84d4-437d8500cd15")
+		(property "Reference" "#PWR012"
+			(at 237.49 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 237.49 144.4569 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 237.49 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 237.49 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 237.49 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "84e51718-d022-4122-8830-728cc2bc9620")
+		)
+		(instances
+			(project "ChipigniteExplain"
+				(path "/8232fe65-a587-4d29-b8c3-2d615f022bd8/da07f808-bd69-4cc5-b448-e52192b4258c"
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)
@@ -8443,7 +8607,7 @@
 			(uuid "b0974379-9e17-4ef7-b672-5e06cdd824df")
 		)
 		(instances
-			(project "EfabExplain"
+			(project "ChipigniteExplain"
 				(path "/8232fe65-a587-4d29-b8c3-2d615f022bd8/da07f808-bd69-4cc5-b448-e52192b4258c"
 					(reference "#PWR0103")
 					(unit 1)
@@ -8509,7 +8673,7 @@
 			(uuid "02fd5b85-6bc2-446f-b0ec-6b2f0b76ced2")
 		)
 		(instances
-			(project "EfabExplain"
+			(project "ChipigniteExplain"
 				(path "/8232fe65-a587-4d29-b8c3-2d615f022bd8/da07f808-bd69-4cc5-b448-e52192b4258c"
 					(reference "#PWR073")
 					(unit 1)
@@ -8575,7 +8739,7 @@
 			(uuid "674b5d69-e5be-4dec-90b0-83a9690686b0")
 		)
 		(instances
-			(project "EfabExplain"
+			(project "ChipigniteExplain"
 				(path "/8232fe65-a587-4d29-b8c3-2d615f022bd8/da07f808-bd69-4cc5-b448-e52192b4258c"
 					(reference "#PWR0105")
 					(unit 1)
@@ -8641,7 +8805,7 @@
 			(uuid "6ab063dc-f7f3-4293-97f9-5bb69ec58a7a")
 		)
 		(instances
-			(project "EfabExplain"
+			(project "ChipigniteExplain"
 				(path "/8232fe65-a587-4d29-b8c3-2d615f022bd8/da07f808-bd69-4cc5-b448-e52192b4258c"
 					(reference "#PWR095")
 					(unit 1)
@@ -8784,7 +8948,7 @@
 			(uuid "7cf7ebc3-1e03-4d70-b765-35b068910069")
 		)
 		(instances
-			(project "EfabExplain"
+			(project "ChipigniteExplain"
 				(path "/8232fe65-a587-4d29-b8c3-2d615f022bd8/da07f808-bd69-4cc5-b448-e52192b4258c"
 					(reference "SW5")
 					(unit 1)
@@ -9019,7 +9183,7 @@
 			(uuid "615d7489-db5b-4b02-aa95-598a8b378601")
 		)
 		(instances
-			(project "EfabExplain"
+			(project "ChipigniteExplain"
 				(path "/8232fe65-a587-4d29-b8c3-2d615f022bd8/da07f808-bd69-4cc5-b448-e52192b4258c"
 					(reference "U7")
 					(unit 2)
@@ -9159,7 +9323,7 @@
 			(uuid "a2faae63-d54f-4b27-8222-41436b31f2a5")
 		)
 		(instances
-			(project "EfabExplain"
+			(project "ChipigniteExplain"
 				(path "/8232fe65-a587-4d29-b8c3-2d615f022bd8/da07f808-bd69-4cc5-b448-e52192b4258c"
 					(reference "R20")
 					(unit 1)
@@ -9224,7 +9388,7 @@
 			(uuid "18d5f4f6-ce78-435d-b7a3-6676182731bd")
 		)
 		(instances
-			(project "EfabExplain"
+			(project "ChipigniteExplain"
 				(path "/8232fe65-a587-4d29-b8c3-2d615f022bd8/da07f808-bd69-4cc5-b448-e52192b4258c"
 					(reference "#PWR082")
 					(unit 1)
@@ -9290,7 +9454,7 @@
 			(uuid "448c06e0-c194-447e-83d2-f3576394cb2d")
 		)
 		(instances
-			(project "EfabExplain"
+			(project "ChipigniteExplain"
 				(path "/8232fe65-a587-4d29-b8c3-2d615f022bd8/da07f808-bd69-4cc5-b448-e52192b4258c"
 					(reference "#PWR090")
 					(unit 1)
@@ -9451,7 +9615,7 @@
 			(uuid "8d12224d-bf09-4864-a385-e1b4602402c6")
 		)
 		(instances
-			(project "EfabExplain"
+			(project "ChipigniteExplain"
 				(path "/8232fe65-a587-4d29-b8c3-2d615f022bd8/da07f808-bd69-4cc5-b448-e52192b4258c"
 					(reference "C44")
 					(unit 1)
@@ -9516,7 +9680,7 @@
 			(uuid "2ddb6730-ff21-4e03-bbaf-8e241fb1bc84")
 		)
 		(instances
-			(project "EfabExplain"
+			(project "ChipigniteExplain"
 				(path "/8232fe65-a587-4d29-b8c3-2d615f022bd8/da07f808-bd69-4cc5-b448-e52192b4258c"
 					(reference "#PWR0120")
 					(unit 1)
@@ -9677,7 +9841,7 @@
 			(uuid "84dd83ab-2225-4d60-9430-d83939b0d358")
 		)
 		(instances
-			(project "EfabExplain"
+			(project "ChipigniteExplain"
 				(path "/8232fe65-a587-4d29-b8c3-2d615f022bd8/da07f808-bd69-4cc5-b448-e52192b4258c"
 					(reference "C41")
 					(unit 1)
@@ -9838,7 +10002,7 @@
 			(uuid "b971af22-8d7b-46ff-a784-d8f1d8efa144")
 		)
 		(instances
-			(project "EfabExplain"
+			(project "ChipigniteExplain"
 				(path "/8232fe65-a587-4d29-b8c3-2d615f022bd8/da07f808-bd69-4cc5-b448-e52192b4258c"
 					(reference "C40")
 					(unit 1)
@@ -9971,7 +10135,7 @@
 			(uuid "3106ca20-80ac-4dde-9f56-cfd42a00e1fb")
 		)
 		(instances
-			(project "EfabExplain"
+			(project "ChipigniteExplain"
 				(path "/8232fe65-a587-4d29-b8c3-2d615f022bd8/da07f808-bd69-4cc5-b448-e52192b4258c"
 					(reference "C46")
 					(unit 1)
@@ -10093,7 +10257,7 @@
 			(uuid "157c1b37-db61-4dc4-a3fb-0e67c58ee654")
 		)
 		(instances
-			(project "EfabExplain"
+			(project "ChipigniteExplain"
 				(path "/8232fe65-a587-4d29-b8c3-2d615f022bd8/da07f808-bd69-4cc5-b448-e52192b4258c"
 					(reference "D7")
 					(unit 1)
@@ -10227,7 +10391,7 @@
 			(uuid "5378ff64-faae-4949-9c4d-6474856de3ca")
 		)
 		(instances
-			(project "EfabExplain"
+			(project "ChipigniteExplain"
 				(path "/8232fe65-a587-4d29-b8c3-2d615f022bd8/da07f808-bd69-4cc5-b448-e52192b4258c"
 					(reference "C30")
 					(unit 1)
@@ -10294,7 +10458,7 @@
 			(uuid "90de1206-7aa8-4775-966f-0b7f660e1d66")
 		)
 		(instances
-			(project "EfabExplain"
+			(project "ChipigniteExplain"
 				(path "/8232fe65-a587-4d29-b8c3-2d615f022bd8/da07f808-bd69-4cc5-b448-e52192b4258c"
 					(reference "#PWR096")
 					(unit 1)
@@ -10360,7 +10524,7 @@
 			(uuid "b72d7fb9-f1bd-4fb8-9486-9cb7ffe6c9e9")
 		)
 		(instances
-			(project "EfabExplain"
+			(project "ChipigniteExplain"
 				(path "/8232fe65-a587-4d29-b8c3-2d615f022bd8/da07f808-bd69-4cc5-b448-e52192b4258c"
 					(reference "#PWR0107")
 					(unit 1)
@@ -10521,7 +10685,7 @@
 			(uuid "5268bbe3-7f1c-4710-85aa-7021f088e63d")
 		)
 		(instances
-			(project "EfabExplain"
+			(project "ChipigniteExplain"
 				(path "/8232fe65-a587-4d29-b8c3-2d615f022bd8/da07f808-bd69-4cc5-b448-e52192b4258c"
 					(reference "C47")
 					(unit 1)
@@ -10586,7 +10750,7 @@
 			(uuid "ced5c2df-d216-4d21-a65b-848ba5f38c88")
 		)
 		(instances
-			(project "EfabExplain"
+			(project "ChipigniteExplain"
 				(path "/8232fe65-a587-4d29-b8c3-2d615f022bd8/da07f808-bd69-4cc5-b448-e52192b4258c"
 					(reference "#PWR0104")
 					(unit 1)
@@ -10719,7 +10883,7 @@
 			(uuid "7da5b278-8d05-4471-9182-8a70009ac740")
 		)
 		(instances
-			(project "EfabExplain"
+			(project "ChipigniteExplain"
 				(path "/8232fe65-a587-4d29-b8c3-2d615f022bd8/da07f808-bd69-4cc5-b448-e52192b4258c"
 					(reference "C35")
 					(unit 1)
@@ -10785,7 +10949,7 @@
 			(uuid "91ae6cf6-7242-428c-a5e4-c953ec8e27f5")
 		)
 		(instances
-			(project "EfabExplain"
+			(project "ChipigniteExplain"
 				(path "/8232fe65-a587-4d29-b8c3-2d615f022bd8/da07f808-bd69-4cc5-b448-e52192b4258c"
 					(reference "#PWR084")
 					(unit 1)
@@ -10851,7 +11015,7 @@
 			(uuid "f6858356-ee56-4c31-9ff1-50ae94bf8b4e")
 		)
 		(instances
-			(project "EfabExplain"
+			(project "ChipigniteExplain"
 				(path "/8232fe65-a587-4d29-b8c3-2d615f022bd8/da07f808-bd69-4cc5-b448-e52192b4258c"
 					(reference "#PWR098")
 					(unit 1)
@@ -11038,9 +11202,75 @@
 			(uuid "57fe7c27-cc22-4ec1-b804-e1d7dcab6d99")
 		)
 		(instances
-			(project "EfabExplain"
+			(project "ChipigniteExplain"
 				(path "/8232fe65-a587-4d29-b8c3-2d615f022bd8/da07f808-bd69-4cc5-b448-e52192b4258c"
 					(reference "R16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 254 120.65 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5cd8ea54-42eb-47af-a796-4637ab1386e9")
+		(property "Reference" "#PWR011"
+			(at 254 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 254 124.7831 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 254 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 254 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 254 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "283ffe79-0a9d-490d-8dee-5c5e13eeaa35")
+		)
+		(instances
+			(project "ChipigniteExplain"
+				(path "/8232fe65-a587-4d29-b8c3-2d615f022bd8/da07f808-bd69-4cc5-b448-e52192b4258c"
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -11275,7 +11505,7 @@
 			(uuid "36f50f6c-2650-4fa4-9b8c-bc78497b96ab")
 		)
 		(instances
-			(project "EfabExplain"
+			(project "ChipigniteExplain"
 				(path "/8232fe65-a587-4d29-b8c3-2d615f022bd8/da07f808-bd69-4cc5-b448-e52192b4258c"
 					(reference "U7")
 					(unit 3)
@@ -11436,7 +11666,7 @@
 			(uuid "d310cbf7-e720-49d5-87a5-0d14b1f916a2")
 		)
 		(instances
-			(project "EfabExplain"
+			(project "ChipigniteExplain"
 				(path "/8232fe65-a587-4d29-b8c3-2d615f022bd8/da07f808-bd69-4cc5-b448-e52192b4258c"
 					(reference "C25")
 					(unit 1)
@@ -11501,7 +11731,7 @@
 			(uuid "ec71e635-fb52-4243-813b-55a7f7f70be1")
 		)
 		(instances
-			(project "EfabExplain"
+			(project "ChipigniteExplain"
 				(path "/8232fe65-a587-4d29-b8c3-2d615f022bd8/da07f808-bd69-4cc5-b448-e52192b4258c"
 					(reference "#PWR0109")
 					(unit 1)
@@ -11568,7 +11798,7 @@
 			(uuid "ff35a9f6-c356-4a25-9a48-7c5fb68ac87b")
 		)
 		(instances
-			(project "EfabExplain"
+			(project "ChipigniteExplain"
 				(path "/8232fe65-a587-4d29-b8c3-2d615f022bd8/da07f808-bd69-4cc5-b448-e52192b4258c"
 					(reference "#PWR0100")
 					(unit 1)
@@ -11634,7 +11864,7 @@
 			(uuid "8f7d4a78-ac20-47e4-becb-d2d55d3fe525")
 		)
 		(instances
-			(project "EfabExplain"
+			(project "ChipigniteExplain"
 				(path "/8232fe65-a587-4d29-b8c3-2d615f022bd8/da07f808-bd69-4cc5-b448-e52192b4258c"
 					(reference "#PWR083")
 					(unit 1)
@@ -11795,7 +12025,7 @@
 			(uuid "73269874-12ca-4156-a6af-1c232e6bdd92")
 		)
 		(instances
-			(project "EfabExplain"
+			(project "ChipigniteExplain"
 				(path "/8232fe65-a587-4d29-b8c3-2d615f022bd8/da07f808-bd69-4cc5-b448-e52192b4258c"
 					(reference "C31")
 					(unit 1)
@@ -11861,7 +12091,7 @@
 			(uuid "8cf0c4d1-b740-4bc2-a135-774efb276104")
 		)
 		(instances
-			(project "EfabExplain"
+			(project "ChipigniteExplain"
 				(path "/8232fe65-a587-4d29-b8c3-2d615f022bd8/da07f808-bd69-4cc5-b448-e52192b4258c"
 					(reference "#PWR081")
 					(unit 1)
@@ -12050,7 +12280,7 @@
 			(uuid "9d775dad-dd41-46cf-a99f-3ea284a90d41")
 		)
 		(instances
-			(project "EfabExplain"
+			(project "ChipigniteExplain"
 				(path "/8232fe65-a587-4d29-b8c3-2d615f022bd8/da07f808-bd69-4cc5-b448-e52192b4258c"
 					(reference "C37")
 					(unit 1)
@@ -12116,7 +12346,7 @@
 			(uuid "e300a7a5-2cb6-45b9-9f92-f65d461bcc2b")
 		)
 		(instances
-			(project "EfabExplain"
+			(project "ChipigniteExplain"
 				(path "/8232fe65-a587-4d29-b8c3-2d615f022bd8/da07f808-bd69-4cc5-b448-e52192b4258c"
 					(reference "#PWR097")
 					(unit 1)
@@ -12278,7 +12508,7 @@
 			(uuid "30bc5cb2-85df-4a48-9977-3a26da510b1e")
 		)
 		(instances
-			(project "EfabExplain"
+			(project "ChipigniteExplain"
 				(path "/8232fe65-a587-4d29-b8c3-2d615f022bd8/da07f808-bd69-4cc5-b448-e52192b4258c"
 					(reference "C39")
 					(unit 1)
@@ -12343,7 +12573,7 @@
 			(uuid "b24bdb0e-40a1-4088-8dcc-532edc5b4455")
 		)
 		(instances
-			(project "EfabExplain"
+			(project "ChipigniteExplain"
 				(path "/8232fe65-a587-4d29-b8c3-2d615f022bd8/da07f808-bd69-4cc5-b448-e52192b4258c"
 					(reference "#PWR074")
 					(unit 1)
@@ -12486,7 +12716,7 @@
 			(uuid "8e68db04-7754-4a2b-a332-3f2d96dadeb0")
 		)
 		(instances
-			(project "EfabExplain"
+			(project "ChipigniteExplain"
 				(path "/8232fe65-a587-4d29-b8c3-2d615f022bd8/da07f808-bd69-4cc5-b448-e52192b4258c"
 					(reference "SW4")
 					(unit 1)
@@ -12552,7 +12782,7 @@
 			(uuid "2bf113e7-992f-4be0-bbdc-8fa32a31d4cd")
 		)
 		(instances
-			(project "EfabExplain"
+			(project "ChipigniteExplain"
 				(path "/8232fe65-a587-4d29-b8c3-2d615f022bd8/da07f808-bd69-4cc5-b448-e52192b4258c"
 					(reference "#PWR088")
 					(unit 1)
@@ -12713,7 +12943,7 @@
 			(uuid "033c31a1-7767-43d6-989d-0768c681f0ac")
 		)
 		(instances
-			(project "EfabExplain"
+			(project "ChipigniteExplain"
 				(path "/8232fe65-a587-4d29-b8c3-2d615f022bd8/da07f808-bd69-4cc5-b448-e52192b4258c"
 					(reference "C45")
 					(unit 1)
@@ -12873,7 +13103,7 @@
 			(uuid "68aed2ee-1abf-4fbd-a1dc-94f387abbe09")
 		)
 		(instances
-			(project "EfabExplain"
+			(project "ChipigniteExplain"
 				(path "/8232fe65-a587-4d29-b8c3-2d615f022bd8/da07f808-bd69-4cc5-b448-e52192b4258c"
 					(reference "R23")
 					(unit 1)
@@ -12938,75 +13168,9 @@
 			(uuid "df2e0ec5-cabd-454f-b717-329ba47adeec")
 		)
 		(instances
-			(project "EfabExplain"
+			(project "ChipigniteExplain"
 				(path "/8232fe65-a587-4d29-b8c3-2d615f022bd8/da07f808-bd69-4cc5-b448-e52192b4258c"
 					(reference "#PWR0110")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 246.38 147.32 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "76a5056c-4aa5-4a76-acb8-39a6bc509f11")
-		(property "Reference" "#PWR0111"
-			(at 246.38 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 246.38 151.4531 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 246.38 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 246.38 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 246.38 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "26695d09-904c-4a8b-b787-6782957b8d81")
-		)
-		(instances
-			(project "EfabExplain"
-				(path "/8232fe65-a587-4d29-b8c3-2d615f022bd8/da07f808-bd69-4cc5-b448-e52192b4258c"
-					(reference "#PWR0111")
 					(unit 1)
 				)
 			)
@@ -13191,7 +13355,7 @@
 			(uuid "d6005119-3622-474a-bc21-81257630bc4b")
 		)
 		(instances
-			(project "EfabExplain"
+			(project "ChipigniteExplain"
 				(path "/8232fe65-a587-4d29-b8c3-2d615f022bd8/da07f808-bd69-4cc5-b448-e52192b4258c"
 					(reference "R18")
 					(unit 1)
@@ -13333,7 +13497,7 @@
 			(uuid "655b7dd6-9877-49c3-bd65-349f24c48975")
 		)
 		(instances
-			(project "EfabExplain"
+			(project "ChipigniteExplain"
 				(path "/8232fe65-a587-4d29-b8c3-2d615f022bd8/da07f808-bd69-4cc5-b448-e52192b4258c"
 					(reference "C34")
 					(unit 1)
@@ -13399,7 +13563,7 @@
 			(uuid "5c7cb381-a358-48b1-9690-725a9384bf62")
 		)
 		(instances
-			(project "EfabExplain"
+			(project "ChipigniteExplain"
 				(path "/8232fe65-a587-4d29-b8c3-2d615f022bd8/da07f808-bd69-4cc5-b448-e52192b4258c"
 					(reference "#PWR076")
 					(unit 1)
@@ -13533,7 +13697,7 @@
 			(uuid "de489308-f732-4176-8dbc-c8b7179d9b7d")
 		)
 		(instances
-			(project "EfabExplain"
+			(project "ChipigniteExplain"
 				(path "/8232fe65-a587-4d29-b8c3-2d615f022bd8/da07f808-bd69-4cc5-b448-e52192b4258c"
 					(reference "C28")
 					(unit 1)
@@ -13600,7 +13764,7 @@
 			(uuid "7c96f2e3-dc70-41db-9289-cb7b3de2ceb4")
 		)
 		(instances
-			(project "EfabExplain"
+			(project "ChipigniteExplain"
 				(path "/8232fe65-a587-4d29-b8c3-2d615f022bd8/da07f808-bd69-4cc5-b448-e52192b4258c"
 					(reference "#PWR093")
 					(unit 1)
@@ -13731,7 +13895,7 @@
 			(uuid "ac08f1b1-db95-4abc-8c0c-9b0488a843f4")
 		)
 		(instances
-			(project "EfabExplain"
+			(project "ChipigniteExplain"
 				(path "/8232fe65-a587-4d29-b8c3-2d615f022bd8/da07f808-bd69-4cc5-b448-e52192b4258c"
 					(reference "TP3")
 					(unit 1)
@@ -13861,7 +14025,7 @@
 			(uuid "c7aa08fa-3430-4aa2-a575-75b5890e6754")
 		)
 		(instances
-			(project "EfabExplain"
+			(project "ChipigniteExplain"
 				(path "/8232fe65-a587-4d29-b8c3-2d615f022bd8/da07f808-bd69-4cc5-b448-e52192b4258c"
 					(reference "TP5")
 					(unit 1)
@@ -13995,7 +14159,7 @@
 			(uuid "f60d9dd2-0594-411e-8a01-4178cb80d452")
 		)
 		(instances
-			(project "EfabExplain"
+			(project "ChipigniteExplain"
 				(path "/8232fe65-a587-4d29-b8c3-2d615f022bd8/da07f808-bd69-4cc5-b448-e52192b4258c"
 					(reference "C32")
 					(unit 1)
@@ -14144,7 +14308,7 @@
 			(uuid "ec14bc3e-5e7f-43ee-8327-11e31fc41b80")
 		)
 		(instances
-			(project "EfabExplain"
+			(project "ChipigniteExplain"
 				(path "/8232fe65-a587-4d29-b8c3-2d615f022bd8/da07f808-bd69-4cc5-b448-e52192b4258c"
 					(reference "U6")
 					(unit 1)
@@ -14210,7 +14374,7 @@
 			(uuid "fb03ef19-2df5-4319-bdef-80e1d924fac6")
 		)
 		(instances
-			(project "EfabExplain"
+			(project "ChipigniteExplain"
 				(path "/8232fe65-a587-4d29-b8c3-2d615f022bd8/da07f808-bd69-4cc5-b448-e52192b4258c"
 					(reference "#PWR079")
 					(unit 1)
@@ -14341,7 +14505,7 @@
 			(uuid "dd1713c8-730b-4828-bc89-dc1969a2dc40")
 		)
 		(instances
-			(project "EfabExplain"
+			(project "ChipigniteExplain"
 				(path "/8232fe65-a587-4d29-b8c3-2d615f022bd8/da07f808-bd69-4cc5-b448-e52192b4258c"
 					(reference "TP1")
 					(unit 1)
@@ -14438,7 +14602,7 @@
 			(uuid "71a7d131-8e4d-43aa-bb57-08451ac1c05a")
 		)
 		(instances
-			(project "EfabExplain"
+			(project "ChipigniteExplain"
 				(path "/8232fe65-a587-4d29-b8c3-2d615f022bd8/da07f808-bd69-4cc5-b448-e52192b4258c"
 					(reference "D6")
 					(unit 1)
@@ -14504,7 +14668,7 @@
 			(uuid "f7e246ab-bdf9-4166-9fee-c31535c36523")
 		)
 		(instances
-			(project "EfabExplain"
+			(project "ChipigniteExplain"
 				(path "/8232fe65-a587-4d29-b8c3-2d615f022bd8/da07f808-bd69-4cc5-b448-e52192b4258c"
 					(reference "#PWR077")
 					(unit 1)
@@ -14635,7 +14799,7 @@
 			(uuid "105bcd80-1ccd-47a7-b3f5-f6ad2b56fb7b")
 		)
 		(instances
-			(project "EfabExplain"
+			(project "ChipigniteExplain"
 				(path "/8232fe65-a587-4d29-b8c3-2d615f022bd8/da07f808-bd69-4cc5-b448-e52192b4258c"
 					(reference "TP4")
 					(unit 1)
@@ -14775,7 +14939,7 @@
 			(uuid "b4fab93c-d857-4e21-bc09-e23f4ac2fb0c")
 		)
 		(instances
-			(project "EfabExplain"
+			(project "ChipigniteExplain"
 				(path "/8232fe65-a587-4d29-b8c3-2d615f022bd8/da07f808-bd69-4cc5-b448-e52192b4258c"
 					(reference "D4")
 					(unit 1)
@@ -14906,7 +15070,7 @@
 			(uuid "bade4c56-0a91-498d-bf80-5eebce714413")
 		)
 		(instances
-			(project "EfabExplain"
+			(project "ChipigniteExplain"
 				(path "/8232fe65-a587-4d29-b8c3-2d615f022bd8/da07f808-bd69-4cc5-b448-e52192b4258c"
 					(reference "TP2")
 					(unit 1)
@@ -15049,7 +15213,7 @@
 			(uuid "5c7d3841-d8be-4f8c-95de-d813a47a41fc")
 		)
 		(instances
-			(project "EfabExplain"
+			(project "ChipigniteExplain"
 				(path "/8232fe65-a587-4d29-b8c3-2d615f022bd8/da07f808-bd69-4cc5-b448-e52192b4258c"
 					(reference "D5")
 					(unit 1)
@@ -15116,75 +15280,9 @@
 			(uuid "40def8ac-1dfa-44b5-9fcc-7dd7a8147c7d")
 		)
 		(instances
-			(project "EfabExplain"
+			(project "ChipigniteExplain"
 				(path "/8232fe65-a587-4d29-b8c3-2d615f022bd8/da07f808-bd69-4cc5-b448-e52192b4258c"
 					(reference "#PWR099")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3V3")
-		(at 246.38 121.92 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9fc4f961-9d3a-45f3-aced-ac59bdedccf3")
-		(property "Reference" "#PWR0106"
-			(at 246.38 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 246.38 117.7869 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 246.38 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 246.38 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 246.38 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3b951288-f4b8-4e79-b3a2-671d7b0e8cd5")
-		)
-		(instances
-			(project "EfabExplain"
-				(path "/8232fe65-a587-4d29-b8c3-2d615f022bd8/da07f808-bd69-4cc5-b448-e52192b4258c"
-					(reference "#PWR0106")
 					(unit 1)
 				)
 			)
@@ -15248,7 +15346,7 @@
 			(uuid "bac86694-ea2a-4364-b103-a56e1f42d740")
 		)
 		(instances
-			(project "EfabExplain"
+			(project "ChipigniteExplain"
 				(path "/8232fe65-a587-4d29-b8c3-2d615f022bd8/da07f808-bd69-4cc5-b448-e52192b4258c"
 					(reference "#PWR085")
 					(unit 1)
@@ -15314,7 +15412,7 @@
 			(uuid "1267e28e-4305-4696-888a-247872196acd")
 		)
 		(instances
-			(project "EfabExplain"
+			(project "ChipigniteExplain"
 				(path "/8232fe65-a587-4d29-b8c3-2d615f022bd8/da07f808-bd69-4cc5-b448-e52192b4258c"
 					(reference "#PWR089")
 					(unit 1)
@@ -15381,7 +15479,7 @@
 			(uuid "8a38fe9a-7d4e-406d-b1b7-124538d74487")
 		)
 		(instances
-			(project "EfabExplain"
+			(project "ChipigniteExplain"
 				(path "/8232fe65-a587-4d29-b8c3-2d615f022bd8/da07f808-bd69-4cc5-b448-e52192b4258c"
 					(reference "#PWR094")
 					(unit 1)
@@ -15446,7 +15544,7 @@
 			(uuid "96ec45e7-5bc4-4483-9366-7805202e89bc")
 		)
 		(instances
-			(project "EfabExplain"
+			(project "ChipigniteExplain"
 				(path "/8232fe65-a587-4d29-b8c3-2d615f022bd8/da07f808-bd69-4cc5-b448-e52192b4258c"
 					(reference "#PWR0102")
 					(unit 1)
@@ -15606,7 +15704,7 @@
 			(uuid "8b6d22e1-9ac2-437d-acf1-409116793f38")
 		)
 		(instances
-			(project "EfabExplain"
+			(project "ChipigniteExplain"
 				(path "/8232fe65-a587-4d29-b8c3-2d615f022bd8/da07f808-bd69-4cc5-b448-e52192b4258c"
 					(reference "R22")
 					(unit 1)
@@ -15672,7 +15770,7 @@
 			(uuid "1ec9f03f-83b4-45f7-94a6-2b52f56776f9")
 		)
 		(instances
-			(project "EfabExplain"
+			(project "ChipigniteExplain"
 				(path "/8232fe65-a587-4d29-b8c3-2d615f022bd8/da07f808-bd69-4cc5-b448-e52192b4258c"
 					(reference "#PWR071")
 					(unit 1)
@@ -15738,7 +15836,7 @@
 			(uuid "9ae9b39f-817c-434f-ab41-badfb7cf8967")
 		)
 		(instances
-			(project "EfabExplain"
+			(project "ChipigniteExplain"
 				(path "/8232fe65-a587-4d29-b8c3-2d615f022bd8/da07f808-bd69-4cc5-b448-e52192b4258c"
 					(reference "#PWR086")
 					(unit 1)
@@ -15897,7 +15995,7 @@
 			(uuid "6681561f-d7a1-4a8a-8cb5-8ecd9573a50d")
 		)
 		(instances
-			(project "EfabExplain"
+			(project "ChipigniteExplain"
 				(path "/8232fe65-a587-4d29-b8c3-2d615f022bd8/da07f808-bd69-4cc5-b448-e52192b4258c"
 					(reference "C43")
 					(unit 1)
@@ -15963,7 +16061,7 @@
 			(uuid "1510c3ca-5e3e-4cc4-8739-a70373860f44")
 		)
 		(instances
-			(project "EfabExplain"
+			(project "ChipigniteExplain"
 				(path "/8232fe65-a587-4d29-b8c3-2d615f022bd8/da07f808-bd69-4cc5-b448-e52192b4258c"
 					(reference "#PWR072")
 					(unit 1)
@@ -16121,7 +16219,7 @@
 			(uuid "6ee95616-75cf-466d-9bb9-49c7a4e96971")
 		)
 		(instances
-			(project "EfabExplain"
+			(project "ChipigniteExplain"
 				(path "/8232fe65-a587-4d29-b8c3-2d615f022bd8/da07f808-bd69-4cc5-b448-e52192b4258c"
 					(reference "R17")
 					(unit 1)
@@ -16358,7 +16456,7 @@
 			(uuid "36f50f6c-2650-4fa4-9b8c-bc78497b96aa")
 		)
 		(instances
-			(project "EfabExplain"
+			(project "ChipigniteExplain"
 				(path "/8232fe65-a587-4d29-b8c3-2d615f022bd8/da07f808-bd69-4cc5-b448-e52192b4258c"
 					(reference "U7")
 					(unit 1)
@@ -16424,7 +16522,7 @@
 			(uuid "11472fbd-d2bb-413c-84a5-6880007c4447")
 		)
 		(instances
-			(project "EfabExplain"
+			(project "ChipigniteExplain"
 				(path "/8232fe65-a587-4d29-b8c3-2d615f022bd8/da07f808-bd69-4cc5-b448-e52192b4258c"
 					(reference "#PWR087")
 					(unit 1)
@@ -16490,7 +16588,7 @@
 			(uuid "75fb4703-fce1-4a95-9046-0f3158504e87")
 		)
 		(instances
-			(project "EfabExplain"
+			(project "ChipigniteExplain"
 				(path "/8232fe65-a587-4d29-b8c3-2d615f022bd8/da07f808-bd69-4cc5-b448-e52192b4258c"
 					(reference "#PWR0118")
 					(unit 1)
@@ -16630,7 +16728,7 @@
 			(uuid "f04dd1c2-ccf6-4a9a-b1f0-ae4cc39e4af1")
 		)
 		(instances
-			(project "EfabExplain"
+			(project "ChipigniteExplain"
 				(path "/8232fe65-a587-4d29-b8c3-2d615f022bd8/da07f808-bd69-4cc5-b448-e52192b4258c"
 					(reference "R21")
 					(unit 1)
@@ -16778,7 +16876,7 @@
 			(uuid "01347f86-fc2f-4691-a4c0-b7ab9a2c6daf")
 		)
 		(instances
-			(project "EfabExplain"
+			(project "ChipigniteExplain"
 				(path "/8232fe65-a587-4d29-b8c3-2d615f022bd8/da07f808-bd69-4cc5-b448-e52192b4258c"
 					(reference "R25")
 					(unit 1)
@@ -16843,7 +16941,7 @@
 			(uuid "ba62677c-46ca-4a1a-ba1c-849b247fb476")
 		)
 		(instances
-			(project "EfabExplain"
+			(project "ChipigniteExplain"
 				(path "/8232fe65-a587-4d29-b8c3-2d615f022bd8/da07f808-bd69-4cc5-b448-e52192b4258c"
 					(reference "#PWR0101")
 					(unit 1)
@@ -16986,7 +17084,7 @@
 			(uuid "023d7f5a-3901-457c-99a1-9518f267e4b2")
 		)
 		(instances
-			(project "EfabExplain"
+			(project "ChipigniteExplain"
 				(path "/8232fe65-a587-4d29-b8c3-2d615f022bd8/da07f808-bd69-4cc5-b448-e52192b4258c"
 					(reference "SW3")
 					(unit 1)
@@ -17147,7 +17245,7 @@
 			(uuid "88770170-a82b-48be-a387-c0d4962bb5f2")
 		)
 		(instances
-			(project "EfabExplain"
+			(project "ChipigniteExplain"
 				(path "/8232fe65-a587-4d29-b8c3-2d615f022bd8/da07f808-bd69-4cc5-b448-e52192b4258c"
 					(reference "C36")
 					(unit 1)
@@ -17212,7 +17310,7 @@
 			(uuid "8f581e48-1cd7-421e-93f1-87ade0db95bf")
 		)
 		(instances
-			(project "EfabExplain"
+			(project "ChipigniteExplain"
 				(path "/8232fe65-a587-4d29-b8c3-2d615f022bd8/da07f808-bd69-4cc5-b448-e52192b4258c"
 					(reference "#PWR078")
 					(unit 1)
@@ -17278,7 +17376,7 @@
 			(uuid "b9a49924-1275-41c2-8552-97bce7f7d1f7")
 		)
 		(instances
-			(project "EfabExplain"
+			(project "ChipigniteExplain"
 				(path "/8232fe65-a587-4d29-b8c3-2d615f022bd8/da07f808-bd69-4cc5-b448-e52192b4258c"
 					(reference "#PWR091")
 					(unit 1)
@@ -17467,7 +17565,7 @@
 			(uuid "19a387d7-3105-4f97-924b-19252033b2c9")
 		)
 		(instances
-			(project "EfabExplain"
+			(project "ChipigniteExplain"
 				(path "/8232fe65-a587-4d29-b8c3-2d615f022bd8/da07f808-bd69-4cc5-b448-e52192b4258c"
 					(reference "C38")
 					(unit 1)
@@ -17628,7 +17726,7 @@
 			(uuid "099b23e3-3f56-41f9-9479-1c05147fbbe8")
 		)
 		(instances
-			(project "EfabExplain"
+			(project "ChipigniteExplain"
 				(path "/8232fe65-a587-4d29-b8c3-2d615f022bd8/da07f808-bd69-4cc5-b448-e52192b4258c"
 					(reference "C42")
 					(unit 1)
@@ -17694,7 +17792,7 @@
 			(uuid "080537a7-481a-408e-ae6b-6db172b6c4f9")
 		)
 		(instances
-			(project "EfabExplain"
+			(project "ChipigniteExplain"
 				(path "/8232fe65-a587-4d29-b8c3-2d615f022bd8/da07f808-bd69-4cc5-b448-e52192b4258c"
 					(reference "#PWR0112")
 					(unit 1)
@@ -17842,7 +17940,7 @@
 			(uuid "008407e7-bf7a-4490-beb6-d179679dddcc")
 		)
 		(instances
-			(project "EfabExplain"
+			(project "ChipigniteExplain"
 				(path "/8232fe65-a587-4d29-b8c3-2d615f022bd8/da07f808-bd69-4cc5-b448-e52192b4258c"
 					(reference "R24")
 					(unit 1)
@@ -17908,7 +18006,7 @@
 			(uuid "076b5b55-822c-403b-88ab-bb91584bb4d1")
 		)
 		(instances
-			(project "EfabExplain"
+			(project "ChipigniteExplain"
 				(path "/8232fe65-a587-4d29-b8c3-2d615f022bd8/da07f808-bd69-4cc5-b448-e52192b4258c"
 					(reference "#PWR0114")
 					(unit 1)
@@ -17973,7 +18071,7 @@
 			(uuid "6df19433-d793-4934-ab51-a73c3709c900")
 		)
 		(instances
-			(project "EfabExplain"
+			(project "ChipigniteExplain"
 				(path "/8232fe65-a587-4d29-b8c3-2d615f022bd8/da07f808-bd69-4cc5-b448-e52192b4258c"
 					(reference "#PWR0119")
 					(unit 1)
@@ -18103,7 +18201,7 @@
 			(uuid "109b4571-c745-4f56-8898-1ecb8799a1b6")
 		)
 		(instances
-			(project "EfabExplain"
+			(project "ChipigniteExplain"
 				(path "/8232fe65-a587-4d29-b8c3-2d615f022bd8/da07f808-bd69-4cc5-b448-e52192b4258c"
 					(reference "R27")
 					(unit 1)
@@ -18169,7 +18267,7 @@
 			(uuid "b7cc3cab-eb7b-4eb8-a1d4-d24df0086fa4")
 		)
 		(instances
-			(project "EfabExplain"
+			(project "ChipigniteExplain"
 				(path "/8232fe65-a587-4d29-b8c3-2d615f022bd8/da07f808-bd69-4cc5-b448-e52192b4258c"
 					(reference "#PWR075")
 					(unit 1)
@@ -18299,7 +18397,7 @@
 			(uuid "c9e17b65-2b08-4bb0-a6a4-10ac7148a15d")
 		)
 		(instances
-			(project "EfabExplain"
+			(project "ChipigniteExplain"
 				(path "/8232fe65-a587-4d29-b8c3-2d615f022bd8/da07f808-bd69-4cc5-b448-e52192b4258c"
 					(reference "R26")
 					(unit 1)
@@ -18534,7 +18632,7 @@
 			(uuid "36f50f6c-2650-4fa4-9b8c-bc78497b96ad")
 		)
 		(instances
-			(project "EfabExplain"
+			(project "ChipigniteExplain"
 				(path "/8232fe65-a587-4d29-b8c3-2d615f022bd8/da07f808-bd69-4cc5-b448-e52192b4258c"
 					(reference "U7")
 					(unit 4)
@@ -18600,7 +18698,7 @@
 			(uuid "7270686b-8b6c-418d-81a0-9234f9c4fbb8")
 		)
 		(instances
-			(project "EfabExplain"
+			(project "ChipigniteExplain"
 				(path "/8232fe65-a587-4d29-b8c3-2d615f022bd8/da07f808-bd69-4cc5-b448-e52192b4258c"
 					(reference "#PWR080")
 					(unit 1)
@@ -18787,7 +18885,7 @@
 			(uuid "9a60f899-9e56-4b15-8822-1ac509d52af6")
 		)
 		(instances
-			(project "EfabExplain"
+			(project "ChipigniteExplain"
 				(path "/8232fe65-a587-4d29-b8c3-2d615f022bd8/da07f808-bd69-4cc5-b448-e52192b4258c"
 					(reference "R19")
 					(unit 1)
@@ -18948,7 +19046,7 @@
 			(uuid "5225626c-afa9-4b3c-b1db-b144ed8f3337")
 		)
 		(instances
-			(project "EfabExplain"
+			(project "ChipigniteExplain"
 				(path "/8232fe65-a587-4d29-b8c3-2d615f022bd8/da07f808-bd69-4cc5-b448-e52192b4258c"
 					(reference "C33")
 					(unit 1)
@@ -19109,7 +19207,7 @@
 			(uuid "6bfd8dc2-3ec9-4b1c-a83e-b4a8409ffaf7")
 		)
 		(instances
-			(project "EfabExplain"
+			(project "ChipigniteExplain"
 				(path "/8232fe65-a587-4d29-b8c3-2d615f022bd8/da07f808-bd69-4cc5-b448-e52192b4258c"
 					(reference "C29")
 					(unit 1)
@@ -19249,7 +19347,7 @@
 			(uuid "a96bd772-4c52-4146-a9fc-946f6791e7cd")
 		)
 		(instances
-			(project "EfabExplain"
+			(project "ChipigniteExplain"
 				(path "/8232fe65-a587-4d29-b8c3-2d615f022bd8/da07f808-bd69-4cc5-b448-e52192b4258c"
 					(reference "R29")
 					(unit 1)
@@ -19315,7 +19413,7 @@
 			(uuid "28c501b1-f26b-4cde-8583-dcf3c1f61e0e")
 		)
 		(instances
-			(project "EfabExplain"
+			(project "ChipigniteExplain"
 				(path "/8232fe65-a587-4d29-b8c3-2d615f022bd8/da07f808-bd69-4cc5-b448-e52192b4258c"
 					(reference "#PWR0108")
 					(unit 1)
